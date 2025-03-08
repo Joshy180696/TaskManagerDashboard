@@ -1,6 +1,7 @@
 # Task Manager App
 
 A simple task management application built with HTML, CSS, JavaScript, and C# ASP.NET Core. Users can create, update, and delete tasks, with data persisted in a SQLite database.
+This project showcases full-stack development skills, including containerization with Docker and deployment on free-tier hosting services with Render.
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
