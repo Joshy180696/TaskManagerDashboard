@@ -14,5 +14,5 @@ A simple task management application built with HTML, CSS, JavaScript, and C# AS
 - Responsive design
 
 ## Live Demo
-- **Frontend**: [https://yourusername.github.io/TaskManagerDashboard/](https://yourusername.github.io/TaskManagerDashboard/)
+- **Frontend**: [https://yourusername.github.io/TaskManagerDashboard](https://Joshy180696.github.io/TaskManagerDashboard)
 - **Backend API**: [https://taskmanagerapi-ni9m.onrender.com](https://taskmanagerapi-ni9m.onrender.com)
