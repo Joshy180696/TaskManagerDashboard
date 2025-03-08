@@ -6,6 +6,7 @@ A simple task management application built with HTML, CSS, JavaScript, and C# AS
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: C# with ASP.NET Core
 - **Database**: SQLite
+- **Containerization**: Docker
 - **Deployment**: GitHub Pages (Frontend), Render (Backend)
 
 ## Features
