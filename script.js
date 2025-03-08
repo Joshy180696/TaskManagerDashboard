@@ -1,6 +1,6 @@
 async function fetchTasks() {
     try {
-        const response = await fetch('https://taskmanagerapi-gao9.onrender.com//api/tasks');
+        const response = await fetch('https://taskmanagerapi-ni9m.onrender.com/api/tasks');
         const tasks = await response.json();
         displayTasks(tasks);
     } catch (error) {
@@ -44,7 +44,7 @@ async function addTask() {
     const task = { title, description, dueDate, status };
 
     try {
-        await fetch('https://taskmanagerapi-gao9.onrender.com//api/tasks', {
+        await fetch('https://taskmanagerapi-ni9m.onrender.com/api/tasks', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(task)
@@ -67,7 +67,7 @@ async function editTask(id) {
     const task = { id, title, description, dueDate, status };
 
     try {
-        await fetch(`https://taskmanagerapi-gao9.onrender.com//api/tasks/${id}`, {
+        await fetch(`https://taskmanagerapi-ni9m.onrender.com/api/tasks/${id}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(task)
@@ -82,7 +82,7 @@ async function deleteTask(id) {
     if (!confirm('Are you sure you want to delete this task?')) return;
 
     try {
-        await fetch(`https://taskmanagerapi-gao9.onrender.com//api/tasks/${id}`, {
+        await fetch(`https://taskmanagerapi-ni9m.onrender.com/api/tasks/${id}`, {
             method: 'DELETE'
         });
         fetchTasks();
